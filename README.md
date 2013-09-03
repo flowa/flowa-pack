@@ -1,4 +1,2 @@
-pisketti-pack
-=============
-
-A emacs-live configuration pack. My favourite settings and keybindings.
+## my favourite settings for emacs-live bundled into a pack 
+## -pisketti
