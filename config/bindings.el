@@ -14,3 +14,13 @@
 (global-set-key (kbd "C-M-0") "}")
 (global-set-key (kbd "C-M-8") "[")
 (global-set-key (kbd "C-M-9") "]")
+
+;; -------------------
+;; multiple-cursors.el
+;; -------------------
+
+;; When you have an active region that spans multiple lines,
+;; the following will add a cursor to each line:
+
+;; TODO bind mc/edit-lines to some keys. The following conflicts search
+;;(global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
