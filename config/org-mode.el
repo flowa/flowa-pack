@@ -1,4 +1,4 @@
-(require 'org)
+;; (require 'org)
 
 ;; Store links to other files (M-x org-store-link OR C-c l)
 ;; 1) Visit some other file and hit C-c l to call org-store-link.
