@@ -13,4 +13,8 @@
 ;; b) Automatically load previously saved desktop from the current directory
 (desktop-save-mode 1)
 
+;; Random utility functions
+(live-load-config-file "utils.el")
+
+
 (require 'multiple-cursors)
