@@ -16,5 +16,7 @@
 ;; Random utility functions
 (live-load-config-file "utils.el")
 
+;; Enable switching between windows with s-<arrow-keys>
+(windmove-default-keybindings)
 
 (require 'multiple-cursors)
