@@ -18,3 +18,15 @@
   "Reloads the emacs conf file(s)"
   (interactive)
   (load-file (expand-file-name user-init-file)))
+
+;; From http://stackoverflow.com/questions/88399/how-do-i-duplicate-a-whole-line-in-emacs
+
+(defun duplicate-line ()
+  "Duplicates line under cursor."
+  (interactive)
+  (move-beginning-of-line 1)
+  (kill-line)
+  (yank)
+  (open-line 1)
+  (next-line 1)
+  (yank))
