@@ -1,6 +1,7 @@
 ;; Init file for pisketti pack
 
 ;; Add pack libs
+(live-add-pack-lib "scss-mode")
 (live-add-pack-lib "let-alist.el")
 (live-add-pack-lib "flycheck")
 (live-add-pack-lib "f.el")
@@ -39,3 +40,4 @@
 
 (provide 'init)
 ;;; init.el ends here
+(require 'scss-mode)
