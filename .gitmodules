@@ -13,3 +13,6 @@
 [submodule "lib/ag.el"]
 	path = lib/ag.el
 	url = https://github.com/Wilfred/ag.el.git
+[submodule "lib/scss-mode"]
+	path = lib/scss-mode
+	url = https://github.com/antonj/scss-mode.git
