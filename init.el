@@ -6,6 +6,7 @@
 (live-add-pack-lib "f.el")
 (live-add-pack-lib "s.el")
 (live-add-pack-lib "dash.el")
+(live-add-pack-lib "ag.el")
 
 ;; Load bindings config
 (live-load-config-file "bindings.el")
@@ -29,6 +30,7 @@
 ;; Enable switching between windows with s-<arrow-keys>
 (windmove-default-keybindings)
 (require 'multiple-cursors)
+(require 'ag)
 (require 'let-alist)
 (require 'dash)
 (require 's)
