@@ -35,3 +35,10 @@
 
 (global-set-key (kbd "C-.") 'enlarge-window-horizontally)
 (global-set-key (kbd "C-,") 'shrink-window-horizontally)
+
+;;---------------
+;; Text manipulation
+;;---------------
+
+;; duplicates line C-c d
+(global-set-key (kbd "C-c d") 'duplicate-line)
