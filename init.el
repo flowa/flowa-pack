@@ -1,11 +1,13 @@
 ;; Init file for pisketti pack
 
 ;; Add pack libs
+(live-add-pack-lib "scss-mode")
 (live-add-pack-lib "let-alist.el")
 (live-add-pack-lib "flycheck")
 (live-add-pack-lib "f.el")
 (live-add-pack-lib "s.el")
 (live-add-pack-lib "dash.el")
+(live-add-pack-lib "ag.el")
 
 ;; Load bindings config
 (live-load-config-file "bindings.el")
@@ -29,6 +31,7 @@
 ;; Enable switching between windows with s-<arrow-keys>
 (windmove-default-keybindings)
 (require 'multiple-cursors)
+(require 'ag)
 (require 'let-alist)
 (require 'dash)
 (require 's)
@@ -37,3 +40,4 @@
 
 (provide 'init)
 ;;; init.el ends here
+(require 'scss-mode)
