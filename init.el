@@ -1,5 +1,8 @@
 ;; Init file for pisketti pack
 
+;; Load pack specific settings
+(live-load-config-file "settings.el")
+
 ;; Add pack libs
 (live-add-pack-lib "scss-mode")
 (live-add-pack-lib "let-alist.el")
