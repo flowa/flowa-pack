@@ -30,3 +30,7 @@
   (open-line 1)
   (next-line 1)
   (yank))
+
+;; File mode bindings
+(add-to-list 'auto-mode-alist '("\\.boot\\'" . clojure-mode))
+(add-to-list 'magic-mode-alist '(".* boot" . clojure-mode))
