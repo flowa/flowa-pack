@@ -42,3 +42,6 @@
 
 ;; duplicates line C-c d
 (global-set-key (kbd "C-c d") 'duplicate-line)
+
+;; neo tree
+(global-set-key [f8] 'neotree-toggle)

@@ -16,3 +16,6 @@
 [submodule "lib/scss-mode"]
 	path = lib/scss-mode
 	url = https://github.com/antonj/scss-mode.git
+[submodule "lib/neotree"]
+	path = lib/neotree
+	url = https://github.com/jaypei/emacs-neotree.git

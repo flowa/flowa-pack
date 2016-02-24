@@ -11,6 +11,7 @@
 (live-add-pack-lib "s.el")
 (live-add-pack-lib "dash.el")
 (live-add-pack-lib "ag.el")
+(live-add-pack-lib "neotree")
 
 ;; Load bindings config
 (live-load-config-file "bindings.el")
@@ -40,7 +41,7 @@
 (require 's)
 (require 'f)
 (require 'flycheck)
-
+(require 'neotree)
+(require 'scss-mode)
 (provide 'init)
 ;;; init.el ends here
-(require 'scss-mode)
