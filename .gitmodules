@@ -19,3 +19,6 @@
 [submodule "lib/neotree"]
 	path = lib/neotree
 	url = https://github.com/jaypei/emacs-neotree.git
+[submodule "lib/projectile"]
+	path = lib/projectile
+	url = https://github.com/bbatsov/projectile.git

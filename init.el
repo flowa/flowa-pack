@@ -13,6 +13,10 @@
 (live-add-pack-lib "ag.el")
 (live-add-pack-lib "neotree")
 
+
+;; Projectile
+(live-load-config-file "projectile.el")
+
 ;; Load bindings config
 (live-load-config-file "bindings.el")
 
