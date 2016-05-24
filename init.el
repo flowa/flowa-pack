@@ -14,6 +14,9 @@
 (live-add-pack-lib "neotree")
 
 
+;; Helm
+(live-load-config-file "helm.el")
+
 ;; Projectile
 (live-load-config-file "projectile.el")
 
