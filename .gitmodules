@@ -28,3 +28,6 @@
 [submodule "lib/helm-projectile"]
 	path = lib/helm-projectile
 	url = https://github.com/bbatsov/helm-projectile.git
+[submodule "lib/emacs-elixir"]
+	path = lib/emacs-elixir
+	url = https://github.com/elixir-lang/emacs-elixir.git
