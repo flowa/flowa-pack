@@ -13,7 +13,6 @@
 (live-add-pack-lib "ag.el")
 (live-add-pack-lib "neotree")
 
-
 ;; Helm
 (live-load-config-file "helm.el")
 
@@ -31,6 +30,9 @@
 
 ;; Load hooks
 (live-load-config-file "hooks.el")
+
+;; Elixir mode emacs-elixir
+(live-load-config-file "emacs-elixir.el")
 
 ;; a) Automatically save desktop on exit
 ;; b) Automatically load previously saved desktop from the current directory
