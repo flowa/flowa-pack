@@ -7,6 +7,7 @@
 (live-add-pack-lib "scss-mode")
 (live-add-pack-lib "let-alist.el")
 (live-add-pack-lib "flycheck")
+(require 'flycheck)
 (live-add-pack-lib "f.el")
 (live-add-pack-lib "s.el")
 (live-add-pack-lib "dash.el")
@@ -34,6 +35,8 @@
 ;; Elixir mode emacs-elixir
 (live-load-config-file "emacs-elixir.el")
 
+(live-load-config-file "emacs-terraform-mode.el")
+
 ;; a) Automatically save desktop on exit
 ;; b) Automatically load previously saved desktop from the current directory
 (desktop-save-mode 1)
@@ -49,7 +52,6 @@
 (require 'dash)
 (require 's)
 (require 'f)
-(require 'flycheck)
 (require 'neotree)
 (require 'scss-mode)
 (provide 'init)

@@ -31,3 +31,9 @@
 [submodule "lib/emacs-elixir"]
 	path = lib/emacs-elixir
 	url = https://github.com/elixir-lang/emacs-elixir.git
+[submodule "lib/emacs-terraform-mode"]
+	path = lib/emacs-terraform-mode
+	url = https://github.com/syohex/emacs-terraform-mode.git
+[submodule "lib/emacs-hcl-mode"]
+	path = lib/emacs-hcl-mode
+	url = https://github.com/syohex/emacs-hcl-mode.git
