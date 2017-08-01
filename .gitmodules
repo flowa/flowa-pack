@@ -31,3 +31,6 @@
 [submodule "lib/emacs-elixir"]
 	path = lib/emacs-elixir
 	url = https://github.com/elixir-lang/emacs-elixir.git
+[submodule "lib/raml"]
+	path = lib/raml
+	url = https://github.com/victorquinn/raml-mode.git

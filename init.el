@@ -34,6 +34,9 @@
 ;; Elixir mode emacs-elixir
 (live-load-config-file "emacs-elixir.el")
 
+;; RAML-mode
+(live-load-config-file "raml.el")
+
 ;; a) Automatically save desktop on exit
 ;; b) Automatically load previously saved desktop from the current directory
 (desktop-save-mode 1)
