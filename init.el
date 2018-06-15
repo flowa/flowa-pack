@@ -12,7 +12,8 @@
 (live-add-pack-lib "dash.el")
 (live-add-pack-lib "ag.el")
 (live-add-pack-lib "neotree")
-
+(live-add-pack-lib "emacs-hcl-mode")
+(live-add-pack-lib "emacs-terraform-mode")
 ;; Helm
 (live-load-config-file "helm.el")
 
@@ -52,5 +53,7 @@
 (require 'flycheck)
 (require 'neotree)
 (require 'scss-mode)
+(require 'hcl-mode)
+(require 'terraform-mode)
 (provide 'init)
 ;;; init.el ends here
