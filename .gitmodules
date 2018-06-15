@@ -37,3 +37,6 @@
 [submodule "lib/emacs-hcl-mode"]
 	path = lib/emacs-hcl-mode
 	url = https://github.com/syohex/emacs-hcl-mode.git
+[submodule "lib/tide"]
+	path = lib/tide
+	url = https://github.com/ananthakumaran/tide.git
