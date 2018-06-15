@@ -14,6 +14,11 @@
 (live-add-pack-lib "neotree")
 (live-add-pack-lib "emacs-hcl-mode")
 (live-add-pack-lib "emacs-terraform-mode")
+(live-add-pack-lib "helm")
+(live-add-pack-lib "emacs-typescript-mode")
+(live-add-pack-lib "web-mode")
+(live-add-pack-lib "tide")
+
 ;; Helm
 (live-load-config-file "helm.el")
 

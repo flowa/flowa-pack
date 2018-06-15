@@ -40,3 +40,9 @@
 [submodule "lib/tide"]
 	path = lib/tide
 	url = https://github.com/ananthakumaran/tide.git
+[submodule "lib/emacs-typescript-mode"]
+	path = lib/emacs-typescript-mode
+	url = https://github.com/hlissner/emacs-typescript-mode.git
+[submodule "lib/web-mode"]
+	path = lib/web-mode
+	url = https://github.com/fxbois/web-mode.git
