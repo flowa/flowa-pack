@@ -7,7 +7,11 @@ This is a *pack* for the wonderful [emacs-live](https://github.com/overtone/emac
 ### Copy the pack files
 
 * copy .emacs-live.el to your home dir
-* copy rest of the contents to ~/.emacs.d/packs/flowa-pack/
+* copy rest of the contents to ~/.flowa-pack/
+
+* OPTIONAL: just git clone the stuff to ~/.flowa-pack
+Naturally it's okay to just put the stufz to wherever you like, and change the respective folder
+in instructions. You know the stuff.
 
 ### Setup git modules
 
@@ -20,5 +24,5 @@ Go to the clone directory and run:
 ### Setup helm
 
 Unfortunately helm requires a manual step. You'll have to run the make yourself.
-* Go to ~/.emacs.d/packs/flowa-pack/lib/helm
+* Go to ~/.flowa-pack/lib/helm
 * Run: ```make```
