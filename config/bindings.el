@@ -1,6 +1,6 @@
 ;; Text size
-;;(define-key global-map (kbd "C-+") 'text-scale-increase)
-;;(define-key global-map (kbd "C--") 'text-scale-decrease)
+(define-key global-map (kbd "C-+") 'text-scale-increase)
+(define-key global-map (kbd "C--") 'text-scale-decrease)
 
 ;; Open buffer menu in the active window
 (global-set-key (kbd "C-x C-b") 'buffer-menu)
