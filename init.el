@@ -15,6 +15,10 @@
 (live-add-pack-lib "neotree")
 (live-add-pack-lib "emacs-hcl-mode")
 (live-add-pack-lib "emacs-terraform-mode")
+
+;; emacs-zoom-window
+(live-load-config-file "emacs-zoom-window.el")
+
 ;; Helm
 (live-load-config-file "helm.el")
 
